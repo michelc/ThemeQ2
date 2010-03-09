@@ -27,14 +27,19 @@
 
         <ul id="menu" class="clearfix">
             <li><%= Html.ActionLink("Home", "Index", "Home", new { @class="selected" })%></li>
+            <li><%= Html.ActionLink("Messages", "Messages", "Home")%></li>
             <li><%= Html.ActionLink("About", "About", "Home") %></li>
-            <li><%= Html.ActionLink("Log ON", "Logon", "Account") %></li>
         </ul>
+        
+        <% if (string.IsNullOrEmpty((string)ViewData["Readme"]) == false) { %>
+        <div id="readme" class="clearfix">
+            <%= ViewData["Readme"] %>
+        </div>
+        <% } %>
 
         <div id="main" class="clearfix">
 
             <div id="content">
-                <h3>Here is the content</h3>
                 <asp:ContentPlaceHolder ID="MainContent" runat="server" />
             </div>
 

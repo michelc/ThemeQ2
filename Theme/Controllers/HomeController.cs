@@ -16,6 +16,18 @@ namespace Theme.Controllers
             return View();
         }
 
+        public ActionResult Messages()
+        {
+            string readme = "";
+            readme += "Ceci est un bloc «#readme» destiné à afficher des informations qui doivent ";
+            readme += "être lues et vues par l'utilisateur. Il apparait sur toutes les pages de façon ";
+            readme += "à communiquer un message important, généralement au sujet du fonctionnement de ";
+            readme += "l'application.";
+            ViewData["Readme"] = readme;
+
+            return View();
+        }
+
         public ActionResult About()
         {
             return View();

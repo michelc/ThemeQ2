@@ -67,9 +67,16 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\body-bg.png" />
+    <Content Include="Content\messageko.png" />
+    <Content Include="Content\messageok.png" />
+    <Content Include="Content\search.png" />
+    <Content Include="Content\shut_down.png" />
     <Content Include="Content\style.css" />
+    <Content Include="Content\support.png" />
     <Content Include="Default.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="Views\Home\Messages.aspx" />
     <Content Include="Web.config" />
     <Content Include="Scripts\jquery-1.3.2.js" />
     <Content Include="Scripts\jquery-1.3.2.min.js" />

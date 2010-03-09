@@ -49,6 +49,11 @@ table {
 	border-spacing: 0;
 }
 
+/* préférences personnelles */
+body {
+	line-height: 1.4;
+}
+
 
 /* --------------------------------------------------
 *  Main Grid : 2 columns
@@ -225,4 +230,48 @@ ul#menu li a.selected
     background-color: #1376c9;
     color: #fff;
     text-decoration: none;
+}
+
+
+
+/* --------------------------------------------------
+*  Messages
+*  http://woork.blogspot.com/2008/03/css-message-box-collection.html
+-------------------------------------------------- */
+
+#readme 
+{
+    background-color: #ffffcc;
+    border-bottom: solid 1px #dedede;
+    padding: 10px;
+}
+
+.message,
+.messageok,
+.messageko
+{
+    color: #cb2026;
+    color: #444;
+    margin: 1em 0;
+    padding: 10px;
+}
+
+.message
+{
+    background-color: #f6f4f1;
+    border: solid 1px #e5e1d6;
+}
+
+.messageok
+{
+    background: #cee6c3 url(messageok.png) no-repeat 5px 7px;
+    border: solid 1px #359545;
+    padding-left: 60px;
+}
+
+.messageko
+{
+    background: #f6cbca url(messageko.png) no-repeat 5px 7px;
+    border: solid 1px #cb2026;
+    padding-left: 60px;
 }
