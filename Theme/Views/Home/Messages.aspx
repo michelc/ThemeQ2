@@ -8,24 +8,29 @@
 
     <h2>Messages</h2>
 
-    <div class="message">
-        Ceci est un bloc «.message» pour attirer l'attention de l'utilisateur et faire
+    <div class="messagebox">
+        Ceci est un bloc «.messagebox» pour attirer l'attention de l'utilisateur et faire
         ressortir une information particulière de la page. 
     </div>
 
-    <div class="messageinfo">
-        Ceci est un bloc «.messageinfo» pour envoyer un message à l'utilisateur en relation
+    <div class="infobox">
+        Ceci est un bloc «.infobox» pour envoyer un message à l'utilisateur en relation
         avec le contenu de la page en cours
     </div>
 
-    <div class="messageok">
-        Ceci est un bloc «.messageok» dans le but de signaler à l'utilisateur que l'action
+    <div class="successbox">
+        Ceci est un bloc «.successbox» pour prévenir l'utilisateur que l'action qu'il y a un
+        problème avec l'action qu'il vient d'exécuter ou qu'il veut exécuter.
+    </div>
+
+    <div class="warningbox">
+        Ceci est un bloc «.warningbox» dans le but de signaler à l'utilisateur que l'action
         qu'il vient de réaliser s'est déroulée correctement.
     </div>
 
-    <div class="messageko">
-        Ceci est un bloc «.messageko» pour prévenir l'utilisateur que l'action qu'il y a un
-        problème avec l'action qu'il vient d'exécuter ou qu'il veut exécuter.
+    <div class="errorbox">
+        Ceci est un bloc «.errorbox» dans le but de signaler à l'utilisateur que l'action
+        qu'il vient de réaliser s'est déroulée correctement.
     </div>
 
 </asp:Content>

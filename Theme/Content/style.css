@@ -236,7 +236,7 @@ ul#menu li a.selected
 
 /* --------------------------------------------------
 *  Messages
-*  http://woork.blogspot.com/2008/03/css-message-box-collection.html
+*  http://css.dzone.com/news/css-message-boxes-different-me
 -------------------------------------------------- */
 
 #readme 
@@ -246,43 +246,49 @@ ul#menu li a.selected
     padding: 10px;
 }
 
-.message,
-.messageinfo,
-.messageok,
-.messageko
+.messagebox,
+.infobox,
+.errorbox,
+.warningbox,
+.successbox
 {
     color: #cb2026;
     color: #444;
     margin: 1em 0;
-    padding: 10px;
+    padding: 10px 10px 10px 65px;
 }
 
-.message
+.messagebox
 {
     background-color: #f6f4f1;
     border: solid 1px #e5e1d6;
+    padding-left: 10px;
 }
 
-.messageinfo
+.infobox
 {
-    background: #e4f2fd url(messageinfo.png) no-repeat 5px 7px;
+    background: #e4f2fd url(infobox.png) no-repeat 5px 7px;
     border: solid 1px #e4f2fd;
     /* border-color: #006699; */
-    padding-left: 65px;
 }
 
-.messageok
+.errorbox
 {
-    background: #cee6c3 url(messageok.png) no-repeat 5px 7px;
-    border: solid 1px #cee6c3;
-    /* border-color: #359545; */
-    padding-left: 65px;
+    background: #ffd9c8 url(errorbox.png) no-repeat 5px 7px;
+    border: solid 1px #ffd9c8;
+    /* border-color: #f0baa2; */
 }
 
-.messageko
+.warningbox
 {
-    background: #f6cbca url(messageko.png) no-repeat 5px 7px;
-    border: solid 1px #f6cbca;
-    /* border-color: #cb2026; */
-    padding-left: 65px;
+    background: #fff298 url(warningbox.png) no-repeat 5px 7px;
+    border: solid 1px #fff298;
+    /* border-color: #ecd852 */
+}
+
+.successbox
+{
+    background: #dbf6be url(successbox.png) no-repeat 5px 7px;
+    border: solid 1px #dbf6be;
+    /* border-color: #9bbf65; */
 }
