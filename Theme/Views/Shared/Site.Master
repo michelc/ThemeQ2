@@ -13,13 +13,15 @@
 
         <div id="header" class="clearfix">
 
-            <div id="title">
-                <h1>My MVC Application</h1>
-            </div>
-
-            <div id="logindisplay">
-                <% Html.RenderPartial("LogOnUserControl"); %>
+            <div id="toolmenu" class="clearfix">
+                <%= Html.TextBox("s") %>
+                <a href="#" class="tm_find" title="Lancer la recherche"></a>
+                <a href="#" class="tm_site" title="Changer d'agence">NomAgence</a>
+                <a href="#" class="tm_help" title="Demande d'assistance"></a>
+                <a href="#" class="tm_exit" title="Quitter l'application"></a>
             </div> 
+
+            <h1><a href="#">My MVC Application</a></h1>
 
         </div>
 

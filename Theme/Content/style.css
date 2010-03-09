@@ -1,0 +1,201 @@
+﻿/* --------------------------------------------------
+*  CSS Reset
+*  http://meyerweb.com/eric/thoughts/2008/01/15/resetting-again/
+-------------------------------------------------- */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* --------------------------------------------------
+*  Main Grid : 2 columns
+*  http://www.zurb.com/playground/css-grid-builder
+-------------------------------------------------- */
+
+body
+{
+    background: #fff url(body-bg.png) repeat-x;
+    font-size: .85em;
+    font-family: Verdana, Helvetica, Sans-Serif;
+    margin: 0;
+    padding: 0;
+}
+
+#page
+{
+    background-color: transparent;
+    margin: 0 auto; 
+    padding: 0;
+    position: relative; 
+    width: 1000px; 
+}
+
+#main
+{
+    background-color: #fff;
+    padding: 20px;
+}
+
+#content,
+#sidebar
+{
+    display: inline;
+    float: left;
+    margin: 0 0 0 20px;
+}
+
+#content
+{
+    margin-left: 0;
+    width: 715px;
+}
+
+#sidebar
+{
+    background-color: #f4f4ee;
+    background-color: #e6e6dc;
+    width: 225px;
+}
+
+#footer
+{
+    padding: 20px 0 0 0;
+    text-align: center;
+    font-size: smaller;
+    color: #888;
+}
+
+/* Clear the columns automagically, thanks @kneath */
+.clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+* html .clearfix { height: 1%; }
+.clearfix { display: inline-block; }
+.clearfix { display: block; }
+
+
+
+#menu ul
+{
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    background-color: pink;
+}
+
+#menu ul li
+{
+    display: inline;
+    list-style: none;
+}
+
+
+/* --------------------------------------------------
+*  Header : title and links
+-------------------------------------------------- */
+
+#header h1
+{
+    font-size: 200%;
+    padding: 15px 0;
+}
+
+#header a,
+#header a:visited
+{
+    color: #555;
+    text-decoration: none;
+}
+
+#header a:hover
+{
+    color: #00f;
+    text-decoration: underline;
+}
+
+
+/* --------------------------------------------------
+*  Header : tool menu
+-------------------------------------------------- */
+
+#toolmenu
+{
+    background-color: #e6e6dc;
+    color: #fff;
+    margin: 0;
+    padding: 7px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: smaller;
+}
+
+#toolmenu a
+{
+    background-repeat: no-repeat;
+    background-position: 0 center;
+    margin: 0 3px;
+    padding: 5px 5px 5px 25px;
+}
+
+.tm_find
+{
+    background-image: url(search.png);
+}
+
+.tm_site
+{
+    margin: 0 20px !important;
+    padding-left: 5px !important;
+}
+
+.tm_help
+{
+    background-image: url(support.png);
+}
+
+.tm_exit
+{
+    background-image: url(shut_down.png);
+}
