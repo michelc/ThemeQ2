@@ -25,14 +25,11 @@
 
         </div>
 
-        <div id="menu" class="clearfix">
-
-            <ul>
-                <li><%= Html.ActionLink("Home", "Index", "Home")%></li>
-                <li><%= Html.ActionLink("About", "About", "Home")%></li>
-            </ul>
-
-        </div>
+        <ul id="menu" class="clearfix">
+            <li><%= Html.ActionLink("Home", "Index", "Home", new { @class="selected" })%></li>
+            <li><%= Html.ActionLink("About", "About", "Home") %></li>
+            <li><%= Html.ActionLink("Log ON", "Logon", "Account") %></li>
+        </ul>
 
         <div id="main" class="clearfix">
 

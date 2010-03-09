@@ -115,22 +115,6 @@ body
 .clearfix { display: block; }
 
 
-
-#menu ul
-{
-    margin: 0;
-    padding: 0;
-    text-align: left;
-    background-color: pink;
-}
-
-#menu ul li
-{
-    display: inline;
-    list-style: none;
-}
-
-
 /* --------------------------------------------------
 *  Header : title and links
 -------------------------------------------------- */
@@ -142,6 +126,7 @@ body
 }
 
 #header a,
+#header a:active,
 #header a:visited
 {
     color: #555;
@@ -151,6 +136,7 @@ body
 #header a:hover
 {
     color: #00f;
+    color: #1376c9;
     text-decoration: underline;
 }
 
@@ -198,4 +184,45 @@ body
 .tm_exit
 {
     background-image: url(shut_down.png);
+}
+
+
+/* --------------------------------------------------
+*  Menu
+-------------------------------------------------- */
+
+ul#menu
+{
+    display: block;
+    font-weight: bold;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    background-color: #5c5f62;
+    width: 1000px !important;
+}
+
+ul#menu li
+{
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+ul#menu li a
+{
+	padding: 10px 15px;
+	display: block;
+	color: #f0f0f0;
+	text-decoration: none;
+}
+
+ul#menu li a:hover,
+ul#menu li a:active,
+ul#menu li a.selected
+{
+    background-color: #1376c9;
+    color: #fff;
+    text-decoration: none;
 }
