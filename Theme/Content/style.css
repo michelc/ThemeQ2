@@ -247,6 +247,7 @@ ul#menu li a.selected
 }
 
 .message,
+.messageinfo,
 .messageok,
 .messageko
 {
@@ -262,16 +263,26 @@ ul#menu li a.selected
     border: solid 1px #e5e1d6;
 }
 
+.messageinfo
+{
+    background: #e4f2fd url(messageinfo.png) no-repeat 5px 7px;
+    border: solid 1px #e4f2fd;
+    /* border-color: #006699; */
+    padding-left: 65px;
+}
+
 .messageok
 {
     background: #cee6c3 url(messageok.png) no-repeat 5px 7px;
-    border: solid 1px #359545;
-    padding-left: 60px;
+    border: solid 1px #cee6c3;
+    /* border-color: #359545; */
+    padding-left: 65px;
 }
 
 .messageko
 {
     background: #f6cbca url(messageko.png) no-repeat 5px 7px;
-    border: solid 1px #cb2026;
-    padding-left: 60px;
+    border: solid 1px #f6cbca;
+    /* border-color: #cb2026; */
+    padding-left: 65px;
 }

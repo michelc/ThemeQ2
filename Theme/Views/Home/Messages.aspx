@@ -9,8 +9,13 @@
     <h2>Messages</h2>
 
     <div class="message">
-        Ceci est un bloc «.message» pour attirer l'attention de l'utilisateur et mettre en
-        évidence une information particulière de la page. 
+        Ceci est un bloc «.message» pour attirer l'attention de l'utilisateur et faire
+        ressortir une information particulière de la page. 
+    </div>
+
+    <div class="messageinfo">
+        Ceci est un bloc «.messageinfo» pour envoyer un message à l'utilisateur en relation
+        avec le contenu de la page en cours
     </div>
 
     <div class="messageok">
