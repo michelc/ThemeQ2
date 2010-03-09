@@ -4,37 +4,52 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title><asp:ContentPlaceHolder ID="TitleContent" runat="server" /></title>
-    <link href="../../Content/Site.css" rel="stylesheet" type="text/css" />
+    <link href="../../Content/style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
-    <div class="page">
 
-        <div id="header">
+    <div id="page">
+
+        <div id="header" class="clearfix">
+
             <div id="title">
                 <h1>My MVC Application</h1>
             </div>
-              
+
             <div id="logindisplay">
                 <% Html.RenderPartial("LogOnUserControl"); %>
             </div> 
-            
-            <div id="menucontainer">
-            
-                <ul id="menu">              
-                    <li><%= Html.ActionLink("Home", "Index", "Home")%></li>
-                    <li><%= Html.ActionLink("About", "About", "Home")%></li>
-                </ul>
-            
-            </div>
+
         </div>
 
-        <div id="main">
-            <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+        <div id="menur" class="clearfix">
 
-            <div id="footer">
-            </div>
+            <ul id="menu">              
+                <li><%= Html.ActionLink("Home", "Index", "Home")%></li>
+                <li><%= Html.ActionLink("About", "About", "Home")%></li>
+            </ul>
+
         </div>
+
+        <div id="main" class="clearfix">
+
+            <div id="content">
+                <h3>Here is the content</h3>
+                <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+            </div>
+
+            <div id="sidebar">
+                <h3>This is the sidebar</h3>
+                <asp:ContentPlaceHolder ID="MainSidebar" runat="server" />
+            </div>
+
+        </div>
+        
+        <div id="footer" class="clearfix">
+        </div>
+
     </div>
+
 </body>
 </html>
