@@ -49,10 +49,75 @@ table {
 	border-spacing: 0;
 }
 
-/* préférences personnelles */
-body {
+/* --------------------------------------------------
+*  Typographie
+-------------------------------------------------- */
+
+body
+{
 	line-height: 1.4;
 }
+
+p
+{
+	padding: 4px 0;
+}
+
+ol
+{
+	padding: 4px 0;
+	list-style-type: decimal;
+	margin-left: 30px;
+}
+
+ul
+{
+	padding: 4px 0;
+	list-style-type: disc;
+	margin-left: 30px;
+}
+
+ul ul, ol ul
+{
+	padding: 2px 0;
+	list-style-type: circle;
+}
+
+blockquote
+{
+    background-color: #f6f4f1;
+    border-left: solid 5px #e5e1d6;
+    clear: both;
+    font-style: italic;
+    margin: 20px 0;
+    padding: 5px 15px;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+    font-size: 1.5em;
+    color: #555;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2
+{
+    padding: 0 0 10px 0;
+    margin-top: 33px;
+}
+
+/* this rule styles <h2> tags that are the 
+first child of the left and right table columns */
+.rightColumn > h1, .content > h2, .leftColumn > h1, .leftColumn > h2
+{
+    margin-top: 75px !important;
+}
+h2
+{
+    background-color: #eee;
+    margin: 10x 0;
+    padding: 5px 5px;
+}
+
 
 
 /* --------------------------------------------------
