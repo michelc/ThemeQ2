@@ -29,6 +29,21 @@ namespace Theme.Controllers
             return View();
         }
 
+        public ActionResult Typographie()
+        {
+            return View();
+        }
+
+        public ActionResult Formulaire()
+        {
+            return View();
+        }
+
+        public ActionResult Tableau()
+        {
+            return View();
+        }
+
         public ActionResult About()
         {
             return View();

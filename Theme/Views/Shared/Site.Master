@@ -28,6 +28,9 @@
         <ul id="menu" class="clearfix">
             <li><%= Html.ActionMenu("Home", "Index", "Home") %></li>
             <li><%= Html.ActionMenu("Messages", "Messages", "Home")%></li>
+            <li><%= Html.ActionMenu("Typographie", "Typographie", "Home")%></li>
+            <li><%= Html.ActionMenu("Formulaire", "Formulaire", "Home")%></li>
+            <li><%= Html.ActionMenu("Tableau", "Tableau", "Home")%></li>
             <li><%= Html.ActionMenu("About", "About", "Home")%></li>
         </ul>
         
