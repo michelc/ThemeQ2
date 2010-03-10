@@ -111,6 +111,7 @@ body
 }
 
 /* Clear the columns automagically, thanks @kneath */
+
 .clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
 * html .clearfix { height: 1%; }
 .clearfix { display: inline-block; }
@@ -315,7 +316,6 @@ ul#menu li a.selected
 }
 
 
-
 /* --------------------------------------------------
 *  Messages
 *  http://css.dzone.com/news/css-message-boxes-different-me
@@ -373,4 +373,114 @@ ul#menu li a.selected
     background: #dbf6be url(successbox.png) no-repeat 5px 7px;
     border: solid 1px #dbf6be;
     /* border-color: #9bbf65; */
+}
+
+
+/* --------------------------------------------------
+*  Formulaire
+-------------------------------------------------- */
+
+#content fieldset 
+{
+    font-size: 110%;
+    margin-bottom: 20px;
+}
+
+#content legend
+{
+    background-color: transparent;
+    color: #888;
+    font-weight: bold;
+    font-size: 1.3em;
+    margin: 10px 0;
+}
+#content legend:first-child
+{
+    margin-top: 0;
+}
+
+#content label
+{
+    margin: 0 10px 0 0;
+    display: inline-block;
+}
+
+#content p label:first-child
+{
+    background-color: transparent;
+    color: #666;
+    display: inline-block;
+    text-align: right;
+    vertical-align: top;
+    width: 180px;
+}
+
+#content fieldset.submit
+{
+    border-top: solid 3px #888;
+    margin-left: 195px;
+    padding-top: 10px;
+}
+
+#content input[type="date"],
+#content input[type="mail"],
+#content input[type="number"],
+#content input[type="phone"],
+#content input[type="text"],
+#content input[type="url"],
+#content select,
+#content textarea
+{
+    border: 1px solid #ccc;
+    font-size: 105%;
+    padding: 2px 4px;
+    margin: 0 0 2px 0;
+    width: 350px;
+}
+
+#content select[size]
+{
+    height: 5em;
+}
+
+#content textarea
+{
+    height: 5em;
+    width: 450px;
+}
+
+#content input[type="date"],
+#content input[type="number"]
+{
+    width: 90px;
+}
+
+#content input[type="phone"] 
+{
+    width: 170px;
+}
+
+#content input[type="submit"]
+{
+    font-size: 105%;
+    font-weight: bold;
+    margin-right: 10px;
+    padding: 4px 20px;
+}
+
+#content fieldset ul
+{
+	list-style: none;
+	margin: -1.7em 0 0 195px;
+	padding: 4px 0;
+}
+
+#content input[type="radio"]:focus + label[for],
+#content input[type="checkbox"]:focus + input[type="hidden"] + label[for],
+#content input:focus,
+#content select:focus,
+#content textarea:focus
+{
+    border-color: #ebb95b;
+    background-color: #fff8d5;
 }

@@ -36,6 +36,15 @@ namespace Theme.Controllers
 
         public ActionResult Formulaire()
         {
+            List<string> petList = new List<string>();
+            petList.Add("Dog");
+            petList.Add("Cat");
+            petList.Add("Hamster");
+            petList.Add("Parrot");
+            petList.Add("Gold fish");
+            petList.Add("Mountain lion");
+            petList.Add("Elephant");
+            ViewData["ListBox"] = new SelectList(petList);
             return View();
         }
 
