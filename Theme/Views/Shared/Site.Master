@@ -31,9 +31,9 @@
             <li><%= Html.ActionMenu("About", "About", "Home")%></li>
         </ul>
         
-        <% if (string.IsNullOrEmpty((string)ViewData["Readme"]) == false) { %>
+        <% if (string.IsNullOrEmpty(Html.ReadmeMessage()) == false) { %>
         <div id="readme" class="clearfix">
-            <%= ViewData["Readme"] %>
+            <%= Html.ReadmeMessage() %>
         </div>
         <% } %>
 

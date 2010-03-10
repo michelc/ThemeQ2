@@ -11,7 +11,7 @@ namespace Theme.Controllers
     {
         public ActionResult Index()
         {
-            ViewData["Message"] = "Welcome to ASP.NET MVC!";
+            Helpers.SiteMasterHelper.ReadmeMessageSet(string.Empty);
 
             return View();
         }
@@ -23,7 +23,8 @@ namespace Theme.Controllers
             readme += "être lues et vues par l'utilisateur. Il apparait sur toutes les pages de façon ";
             readme += "à communiquer un message important, généralement au sujet du fonctionnement de ";
             readme += "l'application.";
-            ViewData["Readme"] = readme;
+
+            Helpers.SiteMasterHelper.ReadmeMessageSet(readme);
 
             return View();
         }

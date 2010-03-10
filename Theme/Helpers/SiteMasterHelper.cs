@@ -18,5 +18,24 @@ namespace Theme.Helpers
             return helper.ActionLink(linkText, actionName, controlName);
         }
 
+        public static string ReadmeMessage(this HtmlHelper helper)
+        {
+            return readmeMessage;
+        }
+
+        public static void ReadmeMessageSet(string message)
+        {
+            if (string.IsNullOrEmpty(message) == true)
+            {
+                readmeMessage = null;
+            }
+            else
+            {
+                readmeMessage = message;
+            }
+        }
+
+        private static string readmeMessage;
+
     }
 }
