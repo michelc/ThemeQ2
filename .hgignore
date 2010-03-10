@@ -7,9 +7,9 @@ syntax: glob
 *.suo
 *.user
 *.webinfo
-/App_Data/*
-/bin/*
-/obj/*
+*/App_Data/*
+*/bin/*
+*/obj/*
 
 
 # Ignore personnal temp files
