@@ -10,27 +10,27 @@
 
     <div class="messagebox">
         Ceci est un bloc «.messagebox» pour attirer l'attention de l'utilisateur et faire
-        ressortir une information particulière de la page. 
+        ressortir une zone particulière sur la page. 
     </div>
 
     <div class="infobox">
-        Ceci est un bloc «.infobox» pour envoyer un message à l'utilisateur en relation
-        avec le contenu de la page en cours
+        Ceci est un bloc «.infobox» pour envoyer un message d'information à l'utilisateur 
+        en relation avec le contenu de la page en cours.
     </div>
 
     <div class="successbox">
-        Ceci est un bloc «.successbox» pour prévenir l'utilisateur que l'action qu'il y a un
-        problème avec l'action qu'il vient d'exécuter ou qu'il veut exécuter.
+        Ceci est un bloc «.successbox» pour annoncer à l'utilisateur que l'action qu'il vient
+        de réaliser s'est déroulée de correctement.
     </div>
 
     <div class="warningbox">
-        Ceci est un bloc «.warningbox» dans le but de signaler à l'utilisateur que l'action
-        qu'il vient de réaliser s'est déroulée correctement.
+        Ceci est un bloc «.warningbox» dans le but d'avertir l'utilisateur que l'action
+        qu'il vient de lancer a été exécutée bien qu'elle pose quelques soucis.
     </div>
 
     <div class="errorbox">
-        Ceci est un bloc «.errorbox» dans le but de signaler à l'utilisateur que l'action
-        qu'il vient de réaliser s'est déroulée correctement.
+        Ceci est un bloc «.errorbox» dans le but de signaler à l'utilisateur qu'il y a un
+        problème bloquant avec l'action qu'il vient d'exécuter ou qu'il veut exécuter.
     </div>
 
 </asp:Content>
