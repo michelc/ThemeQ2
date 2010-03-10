@@ -93,29 +93,18 @@ blockquote
     padding: 5px 15px;
 }
 
-h1, h2, h3, h4, h5, h6
-{
-    font-size: 1.5em;
-    color: #555;
-    font-family: Arial, Helvetica, sans-serif;
-}
-h2
-{
-    padding: 0 0 10px 0;
-    margin-top: 33px;
-}
-
-/* this rule styles <h2> tags that are the 
-first child of the left and right table columns */
-.rightColumn > h1, .content > h2, .leftColumn > h1, .leftColumn > h2
-{
-    margin-top: 75px !important;
-}
 h2
 {
     background-color: #eee;
-    margin: 10x 0;
+    color: #555;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    margin: 20px 0;
     padding: 5px 5px;
+}
+h2:first-child
+{
+    margin-top: 0;
 }
 
 
