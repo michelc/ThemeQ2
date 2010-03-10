@@ -49,65 +49,6 @@ table {
 	border-spacing: 0;
 }
 
-/* --------------------------------------------------
-*  Typographie
--------------------------------------------------- */
-
-body
-{
-	line-height: 1.4;
-}
-
-p
-{
-	padding: 4px 0;
-}
-
-ol
-{
-	padding: 4px 0;
-	list-style-type: decimal;
-	margin-left: 30px;
-}
-
-ul
-{
-	padding: 4px 0;
-	list-style-type: disc;
-	margin-left: 30px;
-}
-
-ul ul, ol ul
-{
-	padding: 2px 0;
-	list-style-type: circle;
-}
-
-blockquote
-{
-    background-color: #f6f4f1;
-    border-left: solid 5px #e5e1d6;
-    clear: both;
-    font-style: italic;
-    margin: 20px 0;
-    padding: 5px 15px;
-}
-
-h2
-{
-    background-color: #eee;
-    color: #555;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.5em;
-    margin: 20px 0;
-    padding: 5px 5px;
-}
-h2:first-child
-{
-    margin-top: 0;
-}
-
-
 
 /* --------------------------------------------------
 *  Main Grid : 2 columns
@@ -154,9 +95,11 @@ body
 
 #sidebar
 {
-    background-color: #f4f4ee;
-    background-color: #e6e6dc;
-    width: 225px;
+    background-color: #f6f4f1;
+    xbackground-color: #f4f4ee;
+    xbackground-color: #e6e6dc;
+    width: 215px;
+    padding: 5px;
 }
 
 #footer
@@ -172,6 +115,91 @@ body
 * html .clearfix { height: 1%; }
 .clearfix { display: inline-block; }
 .clearfix { display: block; }
+
+
+/* --------------------------------------------------
+*  Typographie
+-------------------------------------------------- */
+
+body
+{
+	line-height: 1.4;
+}
+
+#sidebar
+{
+    font-size: 99%;
+    color: #555;
+}
+
+p
+{
+	padding: 4px 0;
+}
+
+ol
+{
+	padding: 4px 0;
+	list-style-type: decimal;
+	margin-left: 30px;
+}
+
+ul
+{
+	padding: 4px 0;
+	list-style-type: disc;
+	margin-left: 30px;
+}
+
+ul ul, ol ul
+{
+	padding: 2px 0;
+	list-style-type: circle;
+}
+
+blockquote
+{
+    background-color: #f6f4f1;
+    border-left: solid 5px #e5e1d6;
+    clear: both;
+    font-style: italic;
+    margin: 20px 0;
+    padding: 5px 15px;
+}
+
+h2
+{
+    background-color: #f6f4f1;
+    color: #555;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    margin: 20px 0;
+    padding: 5px 5px;
+}
+h2:first-child
+{
+    margin-top: 0;
+}
+
+h3
+{
+    background-color: transparent;
+    color: #888;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    margin: 10px 0;
+}
+
+#sidebar h3
+{
+    background-color: #e5e1d6 !important;
+    color: #555;
+    margin-top: -5px;
+    margin-left: -5px;
+    padding: 5px 5px;
+    width: 215px;
+}
 
 
 /* --------------------------------------------------
@@ -206,7 +234,7 @@ body
 
 #toolmenu
 {
-    background-color: #e6e6dc;
+    background-color: #e5e1d6;
     color: #fff;
     margin: 0;
     padding: 7px;
