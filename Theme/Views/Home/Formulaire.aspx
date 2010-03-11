@@ -60,7 +60,7 @@
             </p>
             <p>
                 <label for="Email">Email</label>
-                <%= Html.TextBox("Email", "", new { @type="mail" }) %>
+                <%= Html.TextBox("Email", "", new { @type = "email" })%>
                 <%= Html.ValidationMessage("Email", "*") %>
             </p>
             <p>

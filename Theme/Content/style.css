@@ -423,7 +423,8 @@ ul#menu li a.selected
 }
 
 #content input[type="date"],
-#content input[type="mail"],
+#content input[type="datetime"],
+#content input[type="email"],
 #content input[type="number"],
 #content input[type="phone"],
 #content input[type="text"],
@@ -455,6 +456,7 @@ ul#menu li a.selected
     width: 90px;
 }
 
+#content input[type="datetime"],
 #content input[type="phone"] 
 {
     width: 170px;
