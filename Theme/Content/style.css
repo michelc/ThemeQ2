@@ -315,8 +315,8 @@ ul#menu li a:hover,
 ul#menu li a:active,
 ul#menu li a.selected
 {
-    background-color: #1376c9;
-    color: #fff;
+    background-color: #e5e1d6;
+    color: #555;
     text-decoration: none;
 }
 
@@ -491,6 +491,7 @@ table.xtable
     background-color: transparent;
     color: #333;
     font-size: 95%;
+    margin-bottom: 20px;
     width: 100%;
 }
 
@@ -527,22 +528,48 @@ table.xtable tr
     margin: 10px 0 !important;
 }
 
-table a.editx
+
+/* --------------------------------------------------
+*  Icones pour les actions
+-------------------------------------------------- */
+
+a.show,
+a.new,
+a.edit,
+a.delete
 {
-    background: transparent url(shut_down.png) no-repeat 0 0;
+    background-position: 0 0;
+    background-repeat: no-repeat;
     display: inline-block;
     height: 24px;
-    text-indent: -5000px;
-    width: 24px;
-    overflow: hidden;
-    font-size: 1px;
+    padding-left: 30px;
 }
 
-table a.edit
+a.show
 {
-    background: transparent url(shut_down.png) no-repeat 0 0;
-    display: inline-block;
-    height: 24px;
+    background-image: url(show.png);
+}
+
+a.new
+{
+    background-image: url(new.png);
+}
+
+a.edit
+{
+    background-image: url(edit.png);
+}
+
+a.delete
+{
+    background-image: url(delete.png);
+}
+
+table a.show,
+table a.new,
+table a.edit,
+table a.delete
+{
+    padding-left: 0;
     width: 24px;
-    font-size: 1px;
 }
