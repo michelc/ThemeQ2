@@ -114,7 +114,7 @@
         <fieldset class="formsubmit">
             <p>
                 <input type="submit" value="OK" />
-                <%= Html.ActionLink("Annuler", "Home", "Index")%>
+                <%= Html.ActionLink("Annuler", "Index")%>
             </p>
         </fieldset>
 

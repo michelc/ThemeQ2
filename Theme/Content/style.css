@@ -98,8 +98,6 @@ body
 #sidebar
 {
     background-color: #f6f4f1;
-    xbackground-color: #f4f4ee;
-    xbackground-color: #e6e6dc;
     width: 215px;
     padding: 5px;
 }
@@ -379,7 +377,7 @@ ul#menu li a.selected
 
 
 /* --------------------------------------------------
-*  Formulaire
+*  Formulaire : Disposition
 -------------------------------------------------- */
 
 fieldset.form
@@ -398,6 +396,7 @@ fieldset.form legend
     color: #888;
     font-size: 115%;
     font-weight: bold;
+    margin-bottom: 10px;
 }
 
 fieldset.form label
@@ -414,4 +413,65 @@ fieldset.form p label:first-child
     text-align: right;
     vertical-align: top;
     width: 180px;
+}
+
+
+/* --------------------------------------------------
+*  Formulaire : Présentation
+-------------------------------------------------- */
+
+fieldset.form input[type="date"],
+fieldset.form input[type="datetime"],
+fieldset.form input[type="email"],
+fieldset.form input[type="number"],
+fieldset.form input[type="phone"],
+fieldset.form input[type="text"],
+fieldset.form input[type="url"],
+fieldset.form select,
+fieldset.form textarea
+{
+    border: 1px solid #ccc;
+    font-size: 105%;
+    padding: 2px 4px;
+    margin: 0 0 3px 0;
+    width: 350px;
+}
+
+fieldset.form select[size]
+{
+    height: 5em;
+}
+
+fieldset.form textarea
+{
+    height: 5em;
+    width: 450px;
+}
+
+fieldset.form input[type="date"],
+fieldset.form input[type="number"]
+{
+    width: 90px;
+}
+
+fieldset.form input[type="datetime"],
+fieldset.form input[type="phone"] 
+{
+    width: 170px;
+}
+
+fieldset.form p :focus
+{
+    outline-style: solid;
+    outline-width: 2px;
+    outline-color: #ebb95b;
+    background-color: #fff8d5;
+}
+
+fieldset.formsubmit input[type="submit"]
+{
+    font-size: 105%;
+    font-weight: bold;
+    margin-right: 10px;
+    padding: 4px 20px;
 }
