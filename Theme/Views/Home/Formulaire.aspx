@@ -10,7 +10,7 @@
 
     <% using (Html.BeginForm()) {%>
 
-        <fieldset>
+        <fieldset class="form">
             <legend>Identité</legend>
             <p>
                 <label for="Civilite">Civilité</label>
@@ -31,20 +31,15 @@
             </p>
         </fieldset>
 
-        <fieldset>
+        <fieldset class="form">
             <legend>Coordonnées</legend>
             <p>
                 <label for="Adresse1">Adresse</label>
-                <ul>
-                    <li>
-                        <%= Html.TextBox("Adresse1", "")%>
-                        <%= Html.ValidationMessage("Adresse1", "*") %>
-                    </li>
-                    <li>
-                        <%= Html.TextBox("Adresse2", "")%>
-                        <%= Html.ValidationMessage("Adresse2", "*") %>
-                    </li>
-                </ul>
+                <%= Html.TextBox("Adresse1", "")%>
+                <%= Html.ValidationMessage("Adresse1", "*") %>
+                <br /><label class="spacer"></label>
+                <%= Html.TextBox("Adresse2", "")%>
+                <%= Html.ValidationMessage("Adresse2", "*") %>
             </p>
             <p>
                 <label for="CodePostal">CP / Ville</label>
@@ -77,7 +72,7 @@
             </p>
         </fieldset>
 
-        <fieldset>
+        <fieldset class="form">
             <legend>Autres contrôles</legend>
             <p>
                 <label for="TextArea">TextArea</label>
@@ -86,23 +81,23 @@
             </p>
             <p>
                 <label for="CheckBoxes">CheckBoxes</label>
-                <ul>
-                    <li><%= Html.CheckBox("CheckBox1")%><label for="CheckBox1">CheckBox 1</label></li>
-                    <li><%= Html.CheckBox("CheckBox2", false)%><label for="CheckBox2">CheckBox 2</label></li>
-                    <li><%= Html.CheckBox("CheckBox3", false)%><label for="CheckBox3">CheckBox 3</label></li>
-                    <li><%= Html.CheckBox("CheckBox4", false)%><label for="CheckBox4">CheckBox 4</label></li>
-                </ul>
-                <%= Html.ValidationMessage("TextAgain", "*")%>
+                <%= Html.CheckBox("CheckBox1")%><label for="CheckBox1">CheckBox 1</label>
+                <br /><label class="spacer"></label>
+                <%= Html.CheckBox("CheckBox2", false)%><label for="CheckBox2">CheckBox 2</label>
+                <br /><label class="spacer"></label>
+                <%= Html.CheckBox("CheckBox3", false)%><label for="CheckBox3">CheckBox 3</label>
+                <br /><label class="spacer"></label>
+                <%= Html.CheckBox("CheckBox4", false)%><label for="CheckBox4">CheckBox 4</label>
             </p>
             <p>
                 <label for="RadioButtons">RadioButtons</label>
-                <ul>
-                    <li><%= Html.RadioButton("RadioButton", "RB1", new { @id = "RadioButton1" })%><label for="RadioButton1">RadioButton 1</label></li>
-                    <li><%= Html.RadioButton("RadioButton", "RB2", new { @id = "RadioButton2" })%><label for="RadioButton2">RadioButton 2</label></li>
-                    <li><%= Html.RadioButton("RadioButton", "RB3", new { @id = "RadioButton3" })%><label for="RadioButton3">RadioButton 3</label></li>
-                    <li><%= Html.RadioButton("RadioButton", "RB4", new { @id = "RadioButton4" })%><label for="RadioButton4">RadioButton 4</label></li>
-                </ul>
-                <%= Html.ValidationMessage("TextAgain", "*")%>
+                <%= Html.RadioButton("RadioButton", "RB1", new { @id = "RadioButton1" })%><label for="RadioButton1">RadioButton 1</label>
+                <br /><label class="spacer"></label>
+                <%= Html.RadioButton("RadioButton", "RB2", new { @id = "RadioButton2" })%><label for="RadioButton2">RadioButton 2</label>
+                <br /><label class="spacer"></label>
+                <%= Html.RadioButton("RadioButton", "RB3", new { @id = "RadioButton3" })%><label for="RadioButton3">RadioButton 3</label>
+                <br /><label class="spacer"></label>
+                <%= Html.RadioButton("RadioButton", "RB4", new { @id = "RadioButton4" })%><label for="RadioButton4">RadioButton 4</label>
             </p>
             <p>
                 <label for="ListBox">ListBox</label>
@@ -116,7 +111,7 @@
             </p>
         </fieldset>
 
-        <fieldset class="submit">
+        <fieldset class="formsubmit">
             <p>
                 <input type="submit" value="OK" />
                 <%= Html.ActionLink("Annuler", "Home", "Index")%>
