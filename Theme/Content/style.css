@@ -1,6 +1,6 @@
 ﻿/* --------------------------------------------------
-*  CSS Reset
-*  http://meyerweb.com/eric/thoughts/2008/01/15/resetting-again/
+*  CSS Reset - v1.0 | 20080212
+*  http://meyerweb.com/eric/tools/css/reset/
 -------------------------------------------------- */
 
 html, body, div, span, applet, object, iframe,
@@ -28,6 +28,11 @@ ol, ul {
 }
 blockquote, q {
 	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
 }
 
 /* remember to define focus styles! */
