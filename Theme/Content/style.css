@@ -475,3 +475,69 @@ fieldset.formsubmit input[type="submit"]
     margin-right: 10px;
     padding: 4px 20px;
 }
+
+
+/* --------------------------------------------------
+*  Tableau
+-------------------------------------------------- */
+
+table.xtable
+{
+    background-color: transparent;
+    color: #333;
+    font-size: 95%;
+    width: 100%;
+}
+
+table.bigfont
+{
+    font-size: 100%;
+}
+
+table.xtable tbody
+{
+    border: solid 0 #e5e1d6;
+    border-width: 5px 0;
+}
+
+table.xtable tbody tr:hover
+{
+    background-color: #e4f2fd;
+    color: #000;
+}
+
+table.xtable th,
+table.xtable td
+{
+    font-weight: normal;
+    padding: 3px;
+    text-align: left;
+    vertical-align: top;
+    margin: 10px 0 !important;
+}
+
+table.xtable tr
+{
+    padding: 10px 0 !important;
+    margin: 10px 0 !important;
+}
+
+table a.editx
+{
+    background: transparent url(shut_down.png) no-repeat 0 0;
+    display: inline-block;
+    height: 24px;
+    text-indent: -5000px;
+    width: 24px;
+    overflow: hidden;
+    font-size: 1px;
+}
+
+table a.edit
+{
+    background: transparent url(shut_down.png) no-repeat 0 0;
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    font-size: 1px;
+}
