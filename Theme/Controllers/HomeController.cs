@@ -60,6 +60,15 @@ namespace Theme.Controllers
             }
         }
 
+        public ActionResult Show(string id)
+        {
+            ViewData["FirstName"] = "Pierre";
+            ViewData["lastName"] = "Azerty";
+            ViewData["Phone"] = "01 23 45 67 89";
+            ViewData["Email"] = "pierre.azerty@example.com";
+            return View();
+        }
+
         public ActionResult About()
         {
             return View();
