@@ -1,4 +1,5 @@
-﻿using System.Web.Mvc;
+﻿using System.IO;
+using System.Web.Mvc;
 using System.Web.Mvc.Html;
 
 namespace Theme.Helpers
@@ -36,6 +37,14 @@ namespace Theme.Helpers
         }
 
         private static string readmeMessage;
+
+        // Helpers pour plugin DataTable
+        public static string jQuery_DataTable(this HtmlHelper helper)
+        {
+            string DataTable_Helper = @"~/jQuery/dataTables/helper.dataTables.txt";
+            string html = File.ReadAllText(helper.ViewContext.HttpContext.Server.MapPath(DataTable_Helper));
+            return html;
+        }
 
     }
 }
