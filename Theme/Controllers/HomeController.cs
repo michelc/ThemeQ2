@@ -48,9 +48,16 @@ namespace Theme.Controllers
             return View();
         }
 
-        public ActionResult Tableau()
+        public ActionResult Table(string id)
         {
-            return View();
+            if (id == "")
+            {
+                return View();
+            }
+            else
+            {
+                return View(id);
+            }
         }
 
         public ActionResult About()

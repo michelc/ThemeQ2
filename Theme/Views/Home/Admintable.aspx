@@ -6,7 +6,7 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
 
-    <h2>Tableau</h2>
+    <h2>Table - Administration</h2>
 
     <table class="xtable bigfont">
  
@@ -301,8 +301,19 @@
 
 <asp:Content ID="Content3" ContentPlaceHolderID="MainSidebar" runat="server">
     
-    <p>
-        <a class="new" href="/Home/New">Créer une fiche</a>
-    </p>
+    <div class="box">
+        <p>
+            <a class="new" href="/Home/New">Créer une fiche</a>
+        </p>
+    </div>
+    
+    <div class="box">
+        <h3>Exemples</h3>
+        <ul>
+            <li><a href="<%= Url.Action("Table", new {id = ""}) %>">Consultation</a></li>
+            <li><a href="<%= Url.Action("Table", new {id = "Admintable"}) %>">Administration</a></li>
+            <li><a href="<%= Url.Action("Table", new {id = "Datatable"}) %>">DataTable</a></li>
+        </ul>
+    </div>
 
 </asp:Content>
