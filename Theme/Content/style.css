@@ -103,8 +103,8 @@ body
 #sidebar
 {
     background-color: #f6f4f1;
-    width: 215px;
-    padding: 5px;
+    width: 205px;
+    padding: 10px;
 }
 
 #footer
@@ -195,16 +195,6 @@ h3
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.3em;
     margin: 10px 0;
-}
-
-#sidebar h3
-{
-    background-color: #e5e1d6 !important;
-    color: #555;
-    margin-top: -5px;
-    margin-left: -5px;
-    padding: 5px 5px;
-    width: 215px;
 }
 
 
@@ -572,4 +562,44 @@ table a.delete
 {
     padding-left: 0;
     width: 24px;
+}
+
+
+/* --------------------------------------------------
+*  Contenu de la barre latérale
+-------------------------------------------------- */
+
+#sidebar .box
+{
+    margin: 0 0 20px 0;
+}
+
+#sidebar .box h3
+{
+    background-color: #e5e1d6 !important;
+    color: #555;
+    margin: 0 0 10px 0;
+    padding: 5px 5px;
+}
+
+#sidebar .box ul.button
+{
+	padding: 0;
+	margin: 0 0 5px 0;
+}
+#sidebar .box ul.button li
+{
+	list-style: none;
+}
+#sidebar .box ul.button li a
+{
+	color: #555 !important; /* important for ie6 */
+	text-decoration: none !important; /* important for ie6 */
+	display: block;
+	line-height: 1.6em;
+}
+#sidebar .box ul.button li a:hover 
+{
+    background-color: #fff;
+    color: #000 !important;
 }

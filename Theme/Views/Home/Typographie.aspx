@@ -60,15 +60,24 @@
 
 <asp:Content ID="Content3" ContentPlaceHolderID="MainSidebar" runat="server">
 
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut     labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris     nisi ut aliquip ex ea commodo consequat.</p>
+    <div class="box">
+        <h3>This is the sidebar</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut         labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris         nisi ut aliquip ex ea commodo consequat.</p>
 
-    <ul>
-        <li>This is a sample <strong>Unordered List</strong> (&lt;ul&gt;).</li>
-        <li>Lorem ipsum dolor sit amet consectetuer.</li>
-        <li>Condimentum quis.</li>
-        <li>Congue Quisque augue elit dolor nibh.</li>
-    </ul>
+        <ul>
+            <li>This is a sample <strong>Unordered List</strong> (&lt;ul&gt;).</li>
+            <li>Lorem ipsum dolor sit amet consectetuer.</li>
+            <li>Condimentum quis.</li>
+            <li>Congue Quisque augue elit dolor nibh.</li>
+        </ul>
 
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut     labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris     nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+
+    <div class="box">
+        <h3>Another box</h3>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut         labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris         nisi ut aliquip ex ea commodo consequat.</p>
+
+    </div>
 
 </asp:Content>

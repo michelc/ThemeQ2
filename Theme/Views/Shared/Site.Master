@@ -48,7 +48,6 @@
             </div>
 
             <div id="sidebar">
-                <h3>This is the sidebar</h3>
                 <asp:ContentPlaceHolder ID="MainSidebar" runat="server" />
             </div>
 
