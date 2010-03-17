@@ -127,12 +127,6 @@ h2:after { content: "."; display: block; height: 0; clear: both; visibility: hid
 h2 { display: inline-block; }
 h2 { display: block; }
 
-/*
-h2:after, h3:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
-* html h2, * html h3 { height: 1%; }
-h2, h3 { display: inline-block; }
-h2, h3 { display: block; }
-*/
 
 /* --------------------------------------------------
 *  Typographie
