@@ -15,15 +15,13 @@
 
         <div id="header" class="clearfix">
 
-            <div id="toolmenu" class="clearfix">
+            <h1><a href="<%= Url.Action("Index", "Home") %>">My MVC Application</a></h1>
+            <div>
                 <%= Html.TextBox("s") %>
-                <a href="#" class="tm_find" title="Lancer la recherche"></a>
-                <a href="#" class="tm_site" title="Changer d'agence">NomAgence</a>
-                <a href="#" class="tm_help" title="Demande d'assistance"></a>
-                <a href="#" class="tm_exit" title="Quitter l'application"></a>
-            </div> 
-
-            <h1><a href="#">My MVC Application</a></h1>
+                <a href="#" class="search" title="Lancer la recherche"></a>
+                <span> | </span>
+                <a href="#" title="Changer d'agence">Nom Agence</a>
+            </div>
 
         </div>
 

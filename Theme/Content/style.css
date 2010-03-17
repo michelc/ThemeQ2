@@ -207,10 +207,29 @@ h3
 *  Header : title and links
 -------------------------------------------------- */
 
+#header
+{
+    vertical-align: middle;
+    line-height: 5em;
+}
+
+#header h1,
+#header div
+{
+    float: left;
+    width: 50%;
+}
+
 #header h1
 {
     font-size: 200%;
-    padding: 15px 0;
+}
+
+#header div
+{
+    clear: right;
+    float: left;
+    text-align: right;
 }
 
 #header a,
@@ -223,55 +242,20 @@ h3
 
 #header a:hover
 {
-    color: #00f;
-    color: #1376c9;
-    text-decoration: underline;
+    color: #fff !important;
+    text-decoration: underline !important;
 }
 
-
-/* --------------------------------------------------
-*  Header : tool menu
--------------------------------------------------- */
-
-#toolmenu
+#header div a.search
 {
-    background-color: #e5e1d6;
-    color: #fff;
-    margin: 0;
-    padding: 7px;
-    position: absolute;
-    right: 0;
-    top: 0;
-    font-size: smaller;
-}
-
-#toolmenu a
-{
-    background-repeat: no-repeat;
-    background-position: 0 center;
-    margin: 0 3px;
+    display: inline;
     padding: 5px 5px 5px 25px;
 }
 
-.tm_find
+#header div span
 {
-    background-image: url(search.png);
-}
-
-.tm_site
-{
-    margin: 0 20px !important;
-    padding-left: 5px !important;
-}
-
-.tm_help
-{
-    background-image: url(support.png);
-}
-
-.tm_exit
-{
-    background-image: url(shut_down.png);
+    color: #888;
+    padding: 0 10px;
 }
 
 
@@ -532,7 +516,8 @@ a.icon,
 a.show,
 a.new,
 a.edit,
-a.delete
+a.delete,
+a.search
 {
     background-position: 0 0;
     background-repeat: no-repeat;
@@ -561,10 +546,17 @@ a.delete
     background-image: url(delete.png);
 }
 
+a.search
+{
+    background-image: url(search.png);
+}
+
+table a.icon,
 table a.show,
 table a.new,
 table a.edit,
-table a.delete
+table a.delete,
+table a.search
 {
     padding-left: 0;
     width: 24px;
