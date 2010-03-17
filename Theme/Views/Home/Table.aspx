@@ -18,7 +18,10 @@
 
 <asp:Content ID="Content" ContentPlaceHolderID="Content" runat="server">
 
-    <h2>Table - Consultation</h2>
+    <h2>
+        <span>Table - Consultation</span>
+        <span><a class="edit" href="#">Modifier</a></span>
+    </h2>
 
     <table class="xtable bigfont">
  
@@ -283,9 +286,9 @@
 <asp:Content ID="Sidebar" ContentPlaceHolderID="Sidebar" runat="server">
     
     <div class="box">
-        <p>
+        <h2>
             <a class="new" href="/Home/New">Créer une fiche</a>
-        </p>
+        </h2>
     </div>
     
     <div class="box">

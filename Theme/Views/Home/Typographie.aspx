@@ -12,7 +12,10 @@
 
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut     labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris     nisi ut aliquip ex ea commodo consequat.</p>
 
-    <h2>Titre : Typographie</h2>
+    <h2>
+        <span>Titre : Typographie</span>
+        <span><a class="new" href="#">Ajouter</a></span>
+    </h2>
 
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut     labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris     nisi ut aliquip ex ea commodo consequat.</p>
 
@@ -23,7 +26,10 @@
 
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut     labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris     nisi ut aliquip ex ea commodo consequat.</p>
 
-    <h3>Sous-Titre : Quelques listes</h3>
+    <h3>
+        Sous-Titre : Quelques listes
+        <a class="edit" href="#"></a>
+    </h3>
 
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut     labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris     nisi ut aliquip ex ea commodo consequat.</p>
 
