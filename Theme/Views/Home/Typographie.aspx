@@ -1,10 +1,10 @@
 <%@ Page Title="" Language="C#" MasterPageFile="~/Views/Shared/Site.Master" Inherits="System.Web.Mvc.ViewPage" %>
 
-<asp:Content ID="Content1" ContentPlaceHolderID="TitleContent" runat="server">
-	Typographie
+<asp:Content ID="Htmlhead" ContentPlaceHolderID="Htmlhead" runat="server">
+	<title>Typographie</title>
 </asp:Content>
 
-<asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
+<asp:Content ID="Content" ContentPlaceHolderID="Content" runat="server">
 
     <h2>Titre : Typographie</h2>
 
@@ -58,7 +58,7 @@
 
 </asp:Content>
 
-<asp:Content ID="Content3" ContentPlaceHolderID="MainSidebar" runat="server">
+<asp:Content ID="Sidebar" ContentPlaceHolderID="Sidebar" runat="server">
 
     <div class="box">
         <h3>This is the sidebar</h3>

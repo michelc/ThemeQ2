@@ -1,10 +1,10 @@
 ﻿<%@ Page Language="C#" MasterPageFile="~/Views/Shared/Site.Master" Inherits="System.Web.Mvc.ViewPage" %>
 
-<asp:Content ID="registerTitle" ContentPlaceHolderID="TitleContent" runat="server">
-    Register
+<asp:Content ID="Htmlhead" ContentPlaceHolderID="Htmlhead" runat="server">
+    <title>Register</title>
 </asp:Content>
 
-<asp:Content ID="registerContent" ContentPlaceHolderID="MainContent" runat="server">
+<asp:Content ID="Content" ContentPlaceHolderID="Content" runat="server">
     <h2>Create a New Account</h2>
     <p>
         Use the form below to create a new account. 

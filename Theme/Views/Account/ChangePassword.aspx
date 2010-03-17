@@ -1,10 +1,10 @@
 ﻿<%@ Page Language="C#" MasterPageFile="~/Views/Shared/Site.Master" Inherits="System.Web.Mvc.ViewPage" %>
 
-<asp:Content ID="changePasswordTitle" ContentPlaceHolderID="TitleContent" runat="server">
-    Change Password
+<asp:Content ID="Htmlhead" ContentPlaceHolderID="Htmlhead" runat="server">
+    <title>Change Password</title>
 </asp:Content>
 
-<asp:Content ID="changePasswordContent" ContentPlaceHolderID="MainContent" runat="server">
+<asp:Content ID="Content" ContentPlaceHolderID="Content" runat="server">
     <h2>Change Password</h2>
     <p>
         Use the form below to change your password. 
