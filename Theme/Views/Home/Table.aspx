@@ -2,10 +2,6 @@
 
 <asp:Content ID="Htmlhead" ContentPlaceHolderID="Htmlhead" runat="server">
     <title>Table - Consultation</title>
-</asp:Content>
-
-<asp:Content ID="Content" ContentPlaceHolderID="Content" runat="server">
-
     <script src="/jQuery/jquery.fitted.js" type="text/javascript"></script>
     <script type="text/javascript">
         $(document).ready(function() {
@@ -18,6 +14,9 @@
             cursor: pointer;
         }
     </style>
+</asp:Content>
+
+<asp:Content ID="Content" ContentPlaceHolderID="Content" runat="server">
 
     <h2>Table - Consultation</h2>
 

@@ -1,14 +1,13 @@
 <%@ Page Title="" Language="C#" MasterPageFile="~/Views/Shared/Site.Master" Inherits="System.Web.Mvc.ViewPage" %>
 
 <asp:Content ID="Htmlhead" ContentPlaceHolderID="Htmlhead" runat="server">
-	<title>Table - Datatable</title>
+    <title>Table - Datatable</title>
+    <%= Html.jQuery_DataTable() %>
 </asp:Content>
 
 <asp:Content ID="Content" ContentPlaceHolderID="Content" runat="server">
 
     <h2>Table - Datatable</h2>
-    
-    <%= Html.jQuery_DataTable() %>
 
     <table class="xtable bigfont dataTables">
  
