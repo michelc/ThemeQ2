@@ -309,7 +309,7 @@
     
     <div class="box">
         <h3>Exemples</h3>
-        <ul>
+        <ul class="button">
             <li><a href="<%= Url.Action("Table", new {id = ""}) %>">Consultation</a></li>
             <li><a href="<%= Url.Action("Table", new {id = "Admintable"}) %>">Administration</a></li>
             <li><a href="<%= Url.Action("Table", new {id = "Datatable"}) %>">DataTable</a></li>
