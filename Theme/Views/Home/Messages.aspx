@@ -20,7 +20,7 @@
 
     <div class="successbox">
         Ceci est un bloc «.successbox» pour annoncer à l'utilisateur que l'action qu'il vient
-        de réaliser s'est déroulée de correctement.
+        de réaliser s'est déroulée correctement.
     </div>
 
     <div class="warningbox">
