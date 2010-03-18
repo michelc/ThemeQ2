@@ -76,10 +76,8 @@
     <Content Include="Content\new.png" />
     <Content Include="Content\search.png" />
     <Content Include="Content\show.png" />
-    <Content Include="Content\shut_down.png" />
     <Content Include="Content\style.css" />
     <Content Include="Content\successbox.png" />
-    <Content Include="Content\support.png" />
     <Content Include="Content\warningbox.png" />
     <Content Include="Default.aspx" />
     <Content Include="Global.asax" />
