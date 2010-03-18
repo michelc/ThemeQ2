@@ -77,7 +77,7 @@ body
     margin: 0 auto; 
     padding: 0;
     position: relative; 
-    width: 1000px; 
+    width: 985px; 
 }
 
 #main
@@ -97,7 +97,7 @@ body
 #content
 {
     margin-left: 0;
-    width: 715px;
+    width: 700px;
 }
 
 #sidebar
@@ -272,7 +272,7 @@ ul#menu
     padding: 0;
     text-align: left;
     background-color: #5c5f62;
-    width: 1000px !important;
+    width: 985px !important;
 }
 
 ul#menu li
@@ -649,7 +649,7 @@ table a.search
     clear: none;
     float: left;
     text-align: left;
-    width: 500px;
+    width: 485px;
 }
 
 #content h2 a
