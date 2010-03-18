@@ -302,9 +302,9 @@
 <asp:Content ID="Sidebar" ContentPlaceHolderID="Sidebar" runat="server">
     
     <div class="box">
-        <p>
+        <h2>
             <a class="new" href="/Home/New">Créer une fiche</a>
-        </p>
+        </h2>
     </div>
     
     <div class="box">
