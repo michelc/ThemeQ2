@@ -107,6 +107,17 @@ body
     padding: 10px;
 }
 
+.fullwidth #sidebar
+{
+    width: 0;
+    padding: 0;
+}
+
+.fullwidth #content
+{
+    width: 945px;
+}
+
 #footer
 {
     padding: 20px 0 0 0;
@@ -650,6 +661,11 @@ table a.search
     float: left;
     text-align: left;
     width: 485px;
+}
+
+.fullwidth #content h2 span:first-child
+{
+    width: 730px;
 }
 
 #content h2 a
