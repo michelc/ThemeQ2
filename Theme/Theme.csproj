@@ -101,6 +101,7 @@
     <Content Include="Views\Home\Datatable.aspx" />
     <Content Include="Views\Home\Formulaire.aspx" />
     <Content Include="Views\Home\Messages.aspx" />
+    <Content Include="Views\Home\Edit.aspx" />
     <Content Include="Views\Home\Show.aspx" />
     <Content Include="Views\Home\Table.aspx" />
     <Content Include="Views\Home\Typographie.aspx" />
