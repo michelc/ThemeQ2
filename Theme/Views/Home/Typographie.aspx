@@ -36,12 +36,13 @@
     <ol>
         <li>This is a sample <strong>Ordered List</strong> (&lt;ol&gt;).</li>
         <li>Lorem ipsum dolor sit amet consectetuer.</li>
-        <li>Condimentum quis.</li>
+        <li>Condimentum quis.
             <ul>
                 <li>Lorem ipsum dolor sit amet consectetuer.</li>
                 <li>Condimentum quis.</li>
                 <li>Congue Quisque augue elit dolor nibh.</li>
             </ul>
+        </li>
         <li>Congue Quisque augue elit dolor nibh.</li>
     </ol>
 

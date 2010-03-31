@@ -13,7 +13,7 @@
         <fieldset class="form">
             <legend>Identité</legend>
             <p>
-                <label for="Civilite">Civilité</label>
+                <label>Civilité</label>
                 <%= Html.RadioButton("Civilite", "MR", true, new { @id = "Monsieur" }) %><label for="Monsieur">Monsieur</label>
                 <%= Html.RadioButton("Civilite", "MME", false, new { @id = "Madame" }) %><label for="Madame">Madame</label>
                 <%= Html.RadioButton("Civilite", "MLE", false, new { @id = "Mademoiselle" }) %><label for="Mademoiselle">Mademoiselle</label>
@@ -64,7 +64,7 @@
                 <%= Html.ValidationMessage("Url", "*") %>
             </p>
             <p>
-                <label for="Contact">Contacter par</label>
+                <label>Contacter par</label>
                 <%= Html.CheckBox("ContactTel")%><label for="ContactTel">Téléphone</label>
                 <%= Html.CheckBox("ContactMel")%><label for="ContactMel">Email</label>
                 <%= Html.CheckBox("ContactSms")%><label for="ContactSms">SMS</label>
@@ -80,7 +80,7 @@
                 <%= Html.ValidationMessage("TextArea", "*")%>
             </p>
             <p>
-                <label for="CheckBoxes">CheckBoxes</label>
+                <label>CheckBoxes</label>
                 <%= Html.CheckBox("CheckBox1")%><label for="CheckBox1">CheckBox 1</label>
                 <br /><label class="spacer"></label>
                 <%= Html.CheckBox("CheckBox2", false)%><label for="CheckBox2">CheckBox 2</label>
@@ -90,7 +90,7 @@
                 <%= Html.CheckBox("CheckBox4", false)%><label for="CheckBox4">CheckBox 4</label>
             </p>
             <p>
-                <label for="RadioButtons">RadioButtons</label>
+                <label>RadioButtons</label>
                 <%= Html.RadioButton("RadioButton", "RB1", new { @id = "RadioButton1" })%><label for="RadioButton1">RadioButton 1</label>
                 <br /><label class="spacer"></label>
                 <%= Html.RadioButton("RadioButton", "RB2", new { @id = "RadioButton2" })%><label for="RadioButton2">RadioButton 2</label>
@@ -101,7 +101,7 @@
             </p>
             <p>
                 <label for="ListBox">ListBox</label>
-                <%= Html.ListBox("ListBox", ViewData["ListBox"] as SelectList, new { @size = "5" }).Replace("multiple=", "multiplex=")%>
+                <%= Html.ListBox("ListBox", ViewData["ListBox"] as SelectList, new { @size = "5" }).Replace("multiple=\"multiple\"", string.Empty)%>
                 <%= Html.ValidationMessage("ListBox", "*")%>
             </p>
             <p>
