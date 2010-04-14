@@ -48,6 +48,21 @@ namespace Theme.Controllers
             return View();
         }
 
+        public ActionResult Consultation()
+        {
+            List<string> petList = new List<string>();
+            petList.Add("Dog");
+            petList.Add("Cat");
+            petList.Add("Hamster");
+            petList.Add("Parrot");
+            petList.Add("Gold fish");
+            petList.Add("Mountain lion");
+            petList.Add("Elephant");
+            ViewData["ListBox"] = new SelectList(petList, "Parrot");
+            return View();
+        }
+
+
         public ActionResult Table(string id)
         {
             if (id == "")

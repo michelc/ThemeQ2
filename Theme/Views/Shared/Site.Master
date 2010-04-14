@@ -39,6 +39,7 @@
             <li><%= Html.ActionMenu("Messages", "Messages", "Home")%></li>
             <li><%= Html.ActionMenu("Typographie", "Typographie", "Home")%></li>
             <li><%= Html.ActionMenu("Formulaire", "Formulaire", "Home")%></li>
+            <li><%= Html.ActionMenu("Consultation", "Consultation", "Home")%></li>
             <li><%= Html.ActionMenu("Table", "Table", "Home")%></li>
             <li><%= Html.ActionMenu("About", "About", "Home")%></li>
         </ul>

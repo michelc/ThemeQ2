@@ -404,6 +404,14 @@ fieldset.form p label:first-child
     width: 180px;
 }
 
+fieldset.form span
+{
+    display: inline-block;
+    margin: 0 0 3px 0;
+    height: auto;
+    width: 450px;
+}
+
 
 /* --------------------------------------------------
 *  Formulaire : Présentation
