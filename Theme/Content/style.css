@@ -658,31 +658,23 @@ table a.next
 
 
 /* --------------------------------------------------
-*  Boutons dans le contenu principal
+*  Boutons dans le titre du contenu principal
 -------------------------------------------------- */
 
 #content h2 span
 {
-    clear: right;
-    float: left;
+    left: 510px;
+    position: absolute;
     text-align: right;
     width: 205px;
 }
 
-#content h2 span:first-child
+.fullwidth #content h2 span
 {
-    clear: none;
-    float: left;
-    text-align: left;
-    width: 485px;
+    left: 755px;
 }
 
-.fullwidth #content h2 span:first-child
-{
-    width: 730px;
-}
-
-#content h2 a
+#content h2 span a
 {
     background-color: transparent;
     background-position: 10px 1px;
@@ -691,8 +683,18 @@ table a.next
 	text-decoration: none;
 }
 
-#content h2 a:hover
+#content h2 span a:hover
 {
     background-color: #fff;
 	color: #555;
+}
+
+#content h2 a
+{
+	text-decoration: none;
+}
+
+#content h2 a:hover
+{
+	text-decoration: underline;
 }

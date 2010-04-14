@@ -19,7 +19,7 @@
 <asp:Content ID="Content" ContentPlaceHolderID="Content" runat="server">
 
     <h2>
-        <span>Table - Consultation</span>
+        Table - Consultation
         <span><a class="edit" href="#">Modifier</a></span>
     </h2>
 

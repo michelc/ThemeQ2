@@ -7,7 +7,7 @@
 <asp:Content ID="Content" ContentPlaceHolderID="Content" runat="server">
 
     <h2>
-        <span>Contact</span>
+        Contact
         <span><a class="edit" href="#">Modifier</a></span>
     </h2>
 
@@ -33,6 +33,6 @@
 </asp:Content>
 
 <asp:Content ID="Sidebar" ContentPlaceHolderID="Sidebar" runat="server">
-*
+
 </asp:Content>
 
