@@ -634,23 +634,23 @@ table a.next
     color: #000 !important;
 }
 
-#sidebar .box ul.button
+#sidebar .box ul.buttons
 {
     margin: 0 0 5px 0;
     padding: 0;
 }
-#sidebar .box ul.button li
+#sidebar .box ul.buttons li
 {
     list-style: none;
 }
-#sidebar .box ul.button li a
+#sidebar .box ul.buttons li a
 {
 	color: #555;
 	display: block;
 	line-height: 1.6em;
 	text-decoration: none;
 }
-#sidebar .box ul.button li a:hover 
+#sidebar .box ul.buttons li a:hover 
 {
     background-color: #fff;
     color: #000 !important;
