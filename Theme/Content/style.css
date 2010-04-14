@@ -66,7 +66,7 @@ body
 {
     background: #fff url(body-bg.png) repeat-x;
     font-size: .85em;
-    font-family: 'Century Gothic', Verdana, Helvetica, Sans-Serif;
+    font-family: Verdana, Helvetica, Sans-Serif;
     margin: 0;
     padding: 0;
 }
@@ -194,8 +194,8 @@ h2
     background-color: #f6f4f1;
     color: #555;
     font-family: 'Century Gothic', Arial, Helvetica, sans-serif;
-    font-size: 1.5em;
-    margin: 20px 0;
+    font-size: 1.3em;
+    margin: 15px 0;
     padding: 5px 5px;
 }
 h2:first-child
@@ -203,13 +203,14 @@ h2:first-child
     margin-top: 0;
 }
 
-h3
+h3,
+fieldset.form legend
 {
     background-color: transparent;
     color: #888;
     font-weight: bold;
     font-family: 'Century Gothic', Arial, Helvetica, sans-serif;
-    font-size: 1.3em;
+    font-size: 1.2em;
     margin: 10px 0;
 }
 
@@ -330,7 +331,7 @@ ul#menu li a.selected
 .successbox
 {
     color: #444;
-    margin: 1em 0;
+    margin: 0 0 1em 0;
     min-height: 38px;
     padding: 10px 10px 10px 65px;
 }
@@ -373,7 +374,7 @@ ul#menu li a.selected
 
 fieldset.form
 {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 fieldset.formsubmit
@@ -383,10 +384,7 @@ fieldset.formsubmit
 
 fieldset.form legend
 {
-    background-color: transparent;
-    color: #888;
-    font-size: 115%;
-    font-weight: bold;
+    margin-top: 0;
     margin-bottom: 10px;
 }
 
@@ -485,7 +483,7 @@ table.xtable
     background-color: transparent;
     color: #333;
     font-size: 95%;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     width: 100%;
 }
 
@@ -584,15 +582,16 @@ table a.search
 
 #sidebar .box
 {
-    margin: 0 0 20px 0;
+    margin: 0 0 15px 0;
 }
 
 #sidebar .box h3
 {
     background-color: #e5e1d6 !important;
     color: #555;
+    font-size: 1.1em;
     margin: 0 0 10px 0;
-    padding: 5px 5px;
+    padding: 3px 5px;
 }
 
 #sidebar .box h2
