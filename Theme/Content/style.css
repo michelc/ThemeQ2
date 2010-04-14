@@ -470,7 +470,9 @@ fieldset.form input[type="phone"]
     width: 170px;
 }
 
-fieldset.form p :focus
+fieldset.form input:focus,
+fieldset.form select:focus,
+fieldset.form textarea:focus
 {
     outline-style: solid;
     outline-width: 2px;

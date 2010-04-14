@@ -14,19 +14,19 @@
     <fieldset class="form">
         <p>
             <label>Prénom</label>
-            <%= ViewData["FirstName"]%>
+            <span><%= ViewData["FirstName"]%></span>
         </p>
         <p>
             <label>Nom</label>
-            <%= ViewData["LastName"]%>
+            <span><%= ViewData["LastName"]%></span>
         </p>
         <p>
             <label>Téléphone</label>
-            <%= ViewData["Phone"]%>
+            <span><%= ViewData["Phone"]%></span>
         </p>
         <p>
             <label>Mél</label>
-            <%= ViewData["Email"]%>
+            <span><%= ViewData["Email"]%></span>
         </p>
     </fieldset>
 
