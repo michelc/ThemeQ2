@@ -62,6 +62,11 @@ table {
 *  http://www.zurb.com/playground/css-grid-builder
 -------------------------------------------------- */
 
+html
+{
+    overflow: scroll;
+}
+
 body
 {
     background: #fff url(body-bg.png) repeat-x;
