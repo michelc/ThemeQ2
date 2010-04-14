@@ -535,7 +535,9 @@ a.show,
 a.new,
 a.edit,
 a.delete,
-a.search
+a.search,
+a.back,
+a.next
 {
     background-position: 0 0;
     background-repeat: no-repeat;
@@ -569,12 +571,24 @@ a.search
     background-image: url(search.png);
 }
 
+a.back
+{
+    background-image: url(back.png);
+}
+
+a.next
+{
+    background-image: url(next.png);
+}
+
 table a.icon,
 table a.show,
 table a.new,
 table a.edit,
 table a.delete,
-table a.search
+table a.search,
+table a.back,
+table a.next
 {
     padding-left: 0;
     width: 24px;
