@@ -688,6 +688,16 @@ table a.next
 *  Boutons dans le titre du contenu principal
 -------------------------------------------------- */
 
+#content h2 a
+{
+	text-decoration: none;
+}
+
+#content h2 a:hover
+{
+	text-decoration: underline;
+}
+
 #content h2 span
 {
     left: 510px;
@@ -714,14 +724,5 @@ table a.next
 {
     background-color: #e7e1d1;
 	color: #999;
-}
-
-#content h2 a
-{
 	text-decoration: none;
-}
-
-#content h2 a:hover
-{
-	text-decoration: underline;
 }
