@@ -465,12 +465,31 @@ fieldset.form p :focus
     background-color: #fff8d5;
 }
 
-fieldset.formsubmit input[type="submit"]
+input[type="button"],
+input[type="submit"]
 {
-    font-size: 105%;
-    font-weight: bold;
-    margin-right: 10px;
-    padding: 4px 20px;
+    background-color: #abbf3d !important;
+    border-style: none !important;
+ 	color: #fff !important;
+	font-size: 1em !important;
+	font-weight: bold !important;
+	margin: 0 15px 0 0 !important; 
+    padding: 5px 20px !important;
+}
+
+input[type="button"]:focus,
+input[type="button"]:hover,
+input[type="submit"]:focus,
+input[type="submit"]:hover
+{
+    background-color: #98ac2b !important;
+    border-style: none !important;
+ 	color: #fff !important;
+	font-size: 1em !important;
+	font-weight: bold !important;
+	margin: 0 15px 0 0 !important; 
+    outline-width: 0 !important;
+    padding: 5px 20px !important;
 }
 
 

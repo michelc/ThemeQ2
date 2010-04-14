@@ -52,11 +52,13 @@
                 <label for="Telephone">Téléphone</label>
                 <%= Html.TextBox("Telephone", "", new { @type = "phone" })%>
                 <%= Html.ValidationMessage("Telephone", "*") %>
+                <input type="submit" value="Call !" />
             </p>
             <p>
                 <label for="Email">Email</label>
                 <%= Html.TextBox("Email", "", new { @type = "email" })%>
                 <%= Html.ValidationMessage("Email", "*") %>
+                <input type="button" value="Mail !" />
             </p>
             <p>
                 <label for="Url">Url</label>
