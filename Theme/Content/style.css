@@ -498,6 +498,11 @@ table.xtable tbody
     border-width: 5px 0;
 }
 
+table.noborder tbody
+{
+    border-width: 0;
+}
+
 table.xtable tbody tr:hover
 {
     background-color: #e4f2fd;
