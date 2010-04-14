@@ -68,12 +68,14 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\back.png" />
     <Content Include="Content\body-bg.png" />
     <Content Include="Content\delete.png" />
     <Content Include="Content\edit.png" />
     <Content Include="Content\errorbox.png" />
     <Content Include="Content\infobox.png" />
     <Content Include="Content\new.png" />
+    <Content Include="Content\next.png" />
     <Content Include="Content\search.png" />
     <Content Include="Content\show.png" />
     <Content Include="Content\style.css" />
