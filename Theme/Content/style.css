@@ -484,10 +484,9 @@ fieldset.form input.focus,
 fieldset.form select.focus,
 fieldset.form textarea.focus
 {
-    outline-style: solid;
-    outline-width: 2px;
-    outline-color: #ebb95b;
     background-color: #fff8d5;
+    border: solid 2px #ebb95b;
+    padding: 1px 3px;
 }
 
 input[type="button"],
