@@ -21,6 +21,7 @@
                     $(":input").blur(function() {
                         $(this).removeClass("focus");
                     });
+                    $("label.spacer").css("margin-left", "5px");
                 }
             }
         });
