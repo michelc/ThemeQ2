@@ -480,6 +480,16 @@ fieldset.form textarea:focus
     background-color: #fff8d5;
 }
 
+fieldset.form input.focus,
+fieldset.form select.focus,
+fieldset.form textarea.focus
+{
+    outline-style: solid;
+    outline-width: 2px;
+    outline-color: #ebb95b;
+    background-color: #fff8d5;
+}
+
 input[type="button"],
 input[type="submit"]
 {
@@ -492,8 +502,10 @@ input[type="submit"]
     padding: 5px 20px !important;
 }
 
+input[type="button"].focus,
 input[type="button"]:focus,
 input[type="button"]:hover,
+input[type="submit"].focus,
 input[type="submit"]:focus,
 input[type="submit"]:hover
 {
