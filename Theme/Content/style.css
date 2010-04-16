@@ -277,10 +277,10 @@ fieldset.form legend
 
 
 /* --------------------------------------------------
-*  Menu
+*  Barre de navigation
 -------------------------------------------------- */
 
-ul#menu
+ul#nav
 {
     display: block;
     font-weight: bold;
@@ -292,14 +292,14 @@ ul#menu
     width: 985px !important;
 }
 
-ul#menu li
+ul#nav li
 {
 	float: left;
 	margin: 0;
 	padding: 0;
 }
 
-ul#menu li a
+ul#nav li a
 {
 	padding: 7px 15px;
 	display: block;
@@ -307,9 +307,9 @@ ul#menu li a
 	text-decoration: none;
 }
 
-ul#menu li a:hover,
-ul#menu li a:active,
-ul#menu li a.selected
+ul#nav li a:hover,
+ul#nav li a:active,
+ul#nav li a.selected
 {
     background-color: #e7e1d1;
     color: #5f420c;

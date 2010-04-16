@@ -45,7 +45,7 @@
 
         </div>
 
-        <ul id="menu" class="clearfix">
+        <ul id="nav" class="clearfix">
             <li><%= Html.ActionMenu("Home", "Index", "Home") %></li>
             <li><%= Html.ActionMenu("Messages", "Messages", "Home")%></li>
             <li><%= Html.ActionMenu("Typographie", "Typographie", "Home")%></li>
