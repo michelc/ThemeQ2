@@ -103,7 +103,7 @@
             </p>
             <p>
                 <label for="ListBox">ListBox</label>
-                <%= Html.ListBox("ListBox", ViewData["ListBox"] as SelectList, new { @size = "5" }).Replace("multiple=\"multiple\"", string.Empty)%>
+                <%= Html.ListBox("ListBox", ViewData["ListBox"] as SelectList, new { @size = "5" }).ToString().Replace("multiple=\"multiple\"", string.Empty)%>
                 <%= Html.ValidationMessage("ListBox", "*")%>
             </p>
             <p>

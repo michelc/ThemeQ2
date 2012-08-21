@@ -13,10 +13,10 @@ namespace Theme.Helpers
             {
                 if (helper.ViewContext.RouteData.Values["controller"].ToString() == controlName)
                 {
-                    return helper.ActionLink(linkText, actionName, controlName, null, new { @class = "selected" });
+                    return helper.ActionLink(linkText, actionName, controlName, null, new { @class = "selected" }).ToString();
                 }
             }
-            return helper.ActionLink(linkText, actionName, controlName);
+            return helper.ActionLink(linkText, actionName, controlName).ToString();
         }
 
         public static string ReadmeMessage(this HtmlHelper helper)

@@ -1,6 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Theme", "Theme\Theme.csproj", "{3E904926-0080-4F8B-B66C-1FD1E627E85C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Theme.Tests", "Theme.Tests\Theme.Tests.csproj", "{60097533-B865-4CA3-8B06-14790955AE54}"
